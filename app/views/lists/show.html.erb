@@ -1,0 +1,6 @@
+<h1>Single List</h1>
+<h2><%= @list.name %></h2>
+<p>more need to be included</p>
+<% @list.bookmarks.each do |bookmark| %>
+  <%= bookmark.movie.title %>
+<%end%>
